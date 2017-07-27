@@ -9,6 +9,16 @@ export class StudentsComponent implements OnInit {
 
   constructor() { }
 
+  public activeClassVar='active';
+
+   toggleClass(index){
+        if(index == 2){
+            this.activeClassVar='hide';
+        }else{
+            this.activeClassVar='active';
+        }
+    }
+
   ngOnInit() {
   }
 

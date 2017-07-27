@@ -18,8 +18,8 @@ export class AppComponent   implements OnInit  {
 
     ngOnInit() {
     
-        $.getScript('../../../assets/js/custom.js');
-        //this.menuItems = ROUTES.filter(menuItem => menuItem);
+        $.getScript('../../../assets/js/jquery-3.1.1.min.js');
+         $.getScript('../../../assets/js/bootstrap.min.js');
     }
   
 }

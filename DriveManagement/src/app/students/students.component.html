@@ -1,7 +1,7 @@
 <section class="students">
  <ul class="nav nav-tabs">
-  <li class="active"><a data-toggle="tab" href="#home"><span class="glyphicon glyphicon-plus" id="icon"></span>Invitation Summary</a></li>
-  <li><a data-toggle="tab" href="#menu1"><span class="glyphicon glyphicon-plus" id="icon"></span>Students</a></li>
+  <li class="active" *ngFor="let a of [aVariable]" ><a data-toggle="tab" href="#home"><span class="glyphicon glyphicon-plus" id="icon"></span>Invitation Summary</a></li>
+  <li><a data-toggle="tab" href="#menu1" ><span class="glyphicon glyphicon-plus" id="icon"></span>Students</a></li>
   <li><a data-toggle="tab" href="#menu2"><span class="glyphicon glyphicon-plus" id="icon"></span>Student Coordinators</a></li>
 </ul>
 
@@ -46,15 +46,12 @@
   </table>
   </div>
   </div>
-  <!-- <div id="menu1" class="tab-pane fade">
+   <div id="menu1" class="tab-pane fade">
     <h3>Menu 1</h3>
     <p>Some content in menu 1.</p>
   </div>
    <div id="menu2" class="tab-pane fade">
     <h3>Menu 2</h3>
     <p>Some content in menu 2.</p>
-  </div>  -->
- 
-
-
+  </div>  
 </section>
