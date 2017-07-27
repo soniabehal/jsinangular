@@ -1,0 +1,58 @@
+.students{
+    position: absolute;
+    background-color: #fafcfc;
+    height:90%;
+    width:80%;
+    margin-left: 20%;
+    padding: 20px;
+    top: 10%;
+}
+#icon{
+    text-align: center;
+    
+}
+a{
+    text-align: center;
+}
+.glyphicon{
+    font-size: 30px;
+    color:black;
+    width:100%;
+    padding:2px;
+    padding-left:4px;
+    border-radius: 4px;
+}
+.tab-content{
+    border:1px solid #ddd;
+    border-top: unset; 
+    padding: 30px;
+    background-color: #ffffff;
+    color: #b0b0b0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: #ffffff;
+    color:black;
+}
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a{
+    color:#999999;
+}
+a{
+    font-weight:600;
+}
+th,select{
+    color: black;
+}
+table{
+    box-shadow: 0px 0px 15px lightgrey;
+    margin-top: 15px;
+    background-color: #fafcfc;
+    /* border:2px solid #e8e8e8; */
+    table-layout: fixed;
+    width: 100%;
+}
+table th{
+    background-color: #fafcfc;
+}
+table tr{
+    background-color: #ffffff;
+}

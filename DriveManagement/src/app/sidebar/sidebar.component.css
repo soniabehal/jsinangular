@@ -1,0 +1,22 @@
+.sidebar{
+    height:90%;
+    background-color: #4d5f61; 
+    position: absolute;
+    width:20%;
+    margin-left: 0px;
+    top: 10%;
+    
+}
+a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #adc2c7;
+    display: block;
+    background-color: transparent;
+    word-spacing: 1px;
+}
+.active,a:active{
+    background-color: #ffffff;
+    color:black;
+}
